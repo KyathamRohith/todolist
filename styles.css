@@ -21,7 +21,8 @@ body {
 }
 
 .container {
-    background: #ADD8E6;
+    background: white;
+
     padding: 30px;
     border-radius: 12px;
     text-align: center;
