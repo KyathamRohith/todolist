@@ -1,3 +1,4 @@
+
 /* Body and container styles */
 body {
     font-family: 'Poppins', sans-serif;
@@ -13,7 +14,7 @@ body {
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.8);
+    background: red;
     padding: 30px;
     border-radius: 12px;
     text-align: center;
