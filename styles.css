@@ -6,15 +6,23 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    background-image: url('background.webp');
+    
+  background-size: cover;       /* Ensures the image covers the entire screen */
+  background-position: center;  /* Centers the image on the screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed during scrolling */
+  margin: 0;                    /* Removes any default margin from the body */
+  height: 100vh;     
     align-items: center;
     height: 100vh;
-    background: url('background.webp') no-repeat center center/cover;
     color: #fff;
     overflow: hidden;
 }
 
 .container {
     background: white;
+
     padding: 30px;
     border-radius: 12px;
     text-align: center;
@@ -38,12 +46,12 @@ body {
 header h1 {
     font-size: 2.5rem;
     margin: 0;
-    color: red;
+    color: white;
 }
 
 header p {
     font-size: 1.1rem;
-    color: #ccc;
+    color: #5f5656;
     margin-top: 10px;
 }
 
